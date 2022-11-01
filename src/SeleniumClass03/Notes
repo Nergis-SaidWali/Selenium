@@ -1,0 +1,98 @@
+**************************Selenium Class03*************************************
+
+Locators:
+
+xpath:
+1.Absolute
+2.Relative
+
+Absolute Xpath:
+starts with starting node html and your proceed in the hierarchy
+
+Example:
+
+<html>
+    <head>
+        <title>My Web</title>
+    </head>
+    <body>
+        <button>Press ME</button>
+ 		<input> text</input>
+        <div>
+ 			<input>box</input>
+ 		</div>
+ 		<div>
+            <input>box</input>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+Answer:
+/html/body/div[2]/input
+
+reasons why not used:
+1. too long, complicated
+2. If there is any addition in the hirerarchy, there is apossibility that the path isn't valid anymore
+
+
+
+
+
+
+Relative xpath:
+
+1. ------------------Xpath to identify by attribute-----------------
+syntax:
+//tagname[@attribute='attribute value']
+get me the tag "input" which has an attirbute "id" whose value is "box"
+
+2.--------Xpath to identify by text-------------------
+//tagname[text()='text value']
+english: get me the tagname which has text that is 'text value'
+
+example:
+//a[text()='Forgotten password?']
+english: get me the tag 'a' which has a text that is "Forgotten password?'
+
+
+
+3.--------Xpath to identify by contains method-------------------
+//tagname[contains(@attribute, 'partial attribute value')]
+english:
+get me the tag name with attribute value and the attribute value contains 'partial attribute value'
+
+example:
+//button[contains(@attribute, 'sub']
+english:
+get me the tag "button" which has the attribute value contains "sub"
+
+******for text*******
+//tagname[contains(text(), 'partial text value']
+
+example:
+ //a[contains(text(), 'Forgotten')]
+
+why do we use:
+1.long attribute value
+2.some part is dynamic of the attribute value    id='textBoxHighlighted124' we can simply skip the part that is dynamic
+
+
+
+4.--------Xpath to identify by starts with--------------
+//tagname[starts-with(@attribute, 'partial starting text value']
+
+example:
+//input[starts-with(@name, 'pa')]
+
+
+
+
+
+
+

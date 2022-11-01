@@ -1,0 +1,83 @@
+*******************Selenium Class-01***************************
+
+1.What is Software Testing?
+    identify correctness and quality of the application
+
+2.Ways you can test and application?
+    a.Manual
+    b.Automation
+
+3.What is the need of automation testing?
+    Makes life easier
+    Saves time
+
+4.What are the tools that you can use for Automation?
+    Selenium
+    Cucumber
+    TestNG
+    Katlon Studio
+    Uft
+
+5.Types of Testing?
+    Functional
+    Non-functional
+
+6. What is Selenium?
+    It's a tool that help us to automate WebApplication
+    It's mainly used for Functional Testing.
+
+7. Components of Selenium:
+       Selenium IDE (This is also not that used)
+       Selenium WebDriver (This is going to be our core focus)
+       Selenium Grid (This is also still used in the industry but we will not focus now)
+       Selenium RC(it is not used in the industry, placed with webDriver)
+
+8.What is Selenium WebDriver?
+    It is a tool that allows us to perform actions on WebApplication.
+    It is an interface.
+
+9.Advantages:
+    Open source
+    It works with multiple languages
+    Works with multiple browsers
+    OS independent (Operating System doesn't matter-Mac, Windows, Linux)
+
+10.Disadvantages:
+    No technical support
+    Can not test desktop application
+    No build in reports
+    Cannot test Captchas(are u a robot security questions), images, videos
+
+Task1:
+
+Open up Google.com using Selenium WebDriver
+
+Steps:
+1.
+
+
+
+
+
+
+Difference between driver.quit() and driver.close()
+--> close() -it will close the current tab only
+--> quit() -it will quit the whole browser
+
+
+Difference between driver.get() and driver.navigate.to()
+--> get() -it will open a url
+--> navigate.to() - it opens the url, it has additional functionalities like:
+driver.navigate.back();
+driver.navigate.forward();
+driver.navigate.refresh();
+
+!!navigate() keeps the history of the browser.
+!!driver.get() is going to wait for the page to fully load before proceeding further whereas driver.navigate()
+will not wait for the page to fully load
+
+
+
+
+
+
