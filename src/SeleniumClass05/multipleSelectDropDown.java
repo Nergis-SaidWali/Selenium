@@ -11,7 +11,7 @@ import java.util.List;
 public class multipleSelectDropDown {
     public static void main(String[] args) throws InterruptedException {
 
-        System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("http://syntaxprojects.com/basic-select-dropdown-demo.php");
         driver.manage().window().maximize();

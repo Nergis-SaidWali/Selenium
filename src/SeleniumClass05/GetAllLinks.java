@@ -10,7 +10,7 @@ import java.util.List;
 public class GetAllLinks {
     public static void main(String[] args) {
 
-        System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.ebay.com/");
         driver.manage().window().maximize();

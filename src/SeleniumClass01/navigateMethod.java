@@ -28,7 +28,6 @@ public class navigateMethod {
                 Thread.sleep(2000);
                 //go back to facebook
                 driver.navigate().forward();
-                //refresh the page
                 //wait for 2 seconds
                 Thread.sleep(1000);
                 //refresh the page

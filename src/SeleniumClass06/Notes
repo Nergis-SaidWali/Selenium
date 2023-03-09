@@ -12,7 +12,7 @@ Types of Alerts:
 3.Window-based alert: We cannot handle them in Selenium.
 
 
-Authenticitation Alert:
+Authentication Alert:
 
 information username and password inside the url
 

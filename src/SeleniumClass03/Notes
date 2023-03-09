@@ -7,7 +7,7 @@ xpath:
 2.Relative
 
 Absolute Xpath:
-starts with starting node html and your proceed in the hierarchy
+starts with starting node html and you proceed in the hierarchy
 
 Example:
 
@@ -17,7 +17,7 @@ Example:
     </head>
     <body>
         <button>Press ME</button>
- 		<input> text</input>
+ 		<input>text</input>
         <div>
  			<input>box</input>
  		</div>
@@ -27,18 +27,12 @@ Example:
     </body>
 </html>
 
-
-
-
-
-
-
 Answer:
 /html/body/div[2]/input
 
 reasons why not used:
 1. too long, complicated
-2. If there is any addition in the hirerarchy, there is apossibility that the path isn't valid anymore
+2. If there is any addition in the hierarchy, there is a possibility that the path isn't valid anymore
 
 
 
@@ -50,7 +44,7 @@ Relative xpath:
 1. ------------------Xpath to identify by attribute-----------------
 syntax:
 //tagname[@attribute='attribute value']
-get me the tag "input" which has an attirbute "id" whose value is "box"
+get me the tag "input" which has an attribute "id" whose value is "box"
 
 2.--------Xpath to identify by text-------------------
 //tagname[text()='text value']

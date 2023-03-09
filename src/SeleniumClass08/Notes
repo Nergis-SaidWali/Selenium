@@ -1,0 +1,30 @@
+**********Selenium Class08****************
+
+************Waits********************
+wait for a WebElement to be found ---> Implicit wait
+implicit wait --> Global
+
+Scenario:
+WebElement: </button id="type"> button >/button>
+appears in the DOM after 10 seconds
+
+
+=================Explicit Wait==============
+Explicit waits are conditional waits
+It will wait till a certain condition is fulfilled or the timeout runs out
+
+Syntax for explicit wait:
+
+1.Define the wait:       WebDriverWait wait=new WebDriverWait(driver, 20)
+2.Condition  :     wait.until(ExpectedConditions.ElementToBeVisible(By.xpath("));
+
+
+---------------------Fluent Waits----------------------------
+the fluent wait allows us to set the polling time for the particular webElement
+
+
+
+
+
+
+

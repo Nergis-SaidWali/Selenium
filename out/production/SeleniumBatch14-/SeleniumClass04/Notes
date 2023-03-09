@@ -1,0 +1,7 @@
+************************Selenium Class 04*********************************
+
+1.CSS selector
+2.Tagname
+
+FindElement-> gets you the first encountered webelement
+FindElements -> gets you all the elements encountered
